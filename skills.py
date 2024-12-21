@@ -20,8 +20,17 @@ def speaker(text):
 def browser():
 	'''Открывает браузер заданнный по уполчанию в системе с url указанным здесь'''
 
-	webbrowser.open('https://vkvideo.ru/video-88133688_171381010', new=2)
+	webbrowser.open('https://dzen.ru/', new=2)
 
+def schedule():
+	'''Открывает браузер заданнный по уполчанию в системе с url указанным здесь'''
+
+	webbrowser.open('https://www.asu.ru/timetable/students/', new=2)
+
+def film():
+	'''Открывает браузер заданнный по уполчанию в системе с url указанным здесь'''
+
+	webbrowser.open('https://vkvideo.ru/video-222609266_456240362', new=2)
 
 def game():
 	'''Нужно разместить путь к exe файлу любого вашего приложения'''
